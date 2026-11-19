@@ -51,8 +51,40 @@ import { test, expect, chromium } from '@playwright/test'
 
 
 test('Launching chrome by using fixture', async ({page}) => {
+
+    //call the methods 
+
+    //assertions
     await page.goto('https://www.amazon.in/')
+    
 })
+
+
+test('Test 2', async ({page}) => {
+    await page.goto('https://www.amazon.in/')
+
+
+})
+
+
+test('Test 3', async ({page}) => {
+    await page.goto('https://www.amazon.in/')
+
+
+})
+
+
+test('Ternaryoperator @login', async ({page}) => {
+    let age:number = 200;
+
+    let result = age>=18 ? "eligible":"noteligible";
+
+    console.log(result)
+
+})
+
+
+
 
 
 
