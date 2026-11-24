@@ -1,5 +1,5 @@
 import { test, expect, chromium,firefox,webkit} from '@playwright/test'
-test('Launching chromium Binary', async () => {
+test('Launching chromium Binary @smoke', async () => {
     console.log('This is the first program')
     let browser = await webkit.launch({
 
