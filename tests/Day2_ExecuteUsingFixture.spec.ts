@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test'
 
 
-test('running in different binaries and browsers', async ({page})=>{   // Browser => browser context => page
+test('running in different binaries and browsers @smoke', async ({page})=>{   // Browser => browser context => page
 await page.goto('https://www.amazon.com/');
 })
 
